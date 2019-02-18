@@ -9,7 +9,7 @@ public class Main {
         boolean condition = true;
 
         while (true & condition){
-            System.out.println("1 - Добавить в базу; 2 - Заключить брак; 3 - Разторгнуть брак; 4 - Выход");
+            System.out.println("1 - Добавить в базу; 2 - Заключить брак; 3 - Расторгнуть брак; 4 - Выход");
             System.out.print("Ваш выбор: ");
 
             switch(enter.resultInt()) {
@@ -35,7 +35,7 @@ public class Main {
                     break;
 
                 case 3:
-                    System.out.println("Введите имя однго супругов:");
+                    System.out.println("Введите имя однго из супругов:");
                     String nameMW = enter.resultSrt();
                     array.noLove(nameMW);
                     break;
